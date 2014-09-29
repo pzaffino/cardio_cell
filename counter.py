@@ -4,7 +4,7 @@ import scipy.misc
 from scipy import ndimage
 import sys
 
-# Define utility function
+# Define utility functions
 def remove_edge(im, num_pixel):
     return im[num_pixel:-num_pixel, num_pixel:-num_pixel]
 
